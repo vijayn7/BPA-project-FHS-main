@@ -50,7 +50,6 @@ hr.rounded {border-top: 6px solid gray;border-radius: 5px;}
 #sub-left {float:right;width: 30%;}
 #sub-right {float:right;width: 30%;}
 #sub-mid {float:right;width: 30%;}
-
 .slider{width: 100%;height: 800px;border-radius: 10px;overflow: hidden;}
 .slides{width: 500%;height: 500px;display: flex;}
 .slides input{display: none;}
