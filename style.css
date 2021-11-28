@@ -24,15 +24,7 @@ hr.rounded {border-top: 6px solid gray;border-radius: 5px;}
 .footer-dark .item.social > a {font-size:20px;width:36px;height:36px;line-height:36px;display:inline-block;text-align:center;border-radius:50%;box-shadow:0 0 0 1px rgba(255,255,255,0.4);margin:0 8px;color:#fff;opacity:0.75;}
 .footer-dark .item.social > a:hover {opacity:0.9;}
 .footer-dark .copyright {text-align:center;padding-top:24px;opacity:0.3;font-size:13px;margin-bottom:0;}
-.slider{width: 1600px;height: 800px;border-radius: 10px;overflow: hidden;}
-.slides{width: 500%;height: 500px;display: flex;}
-.slides input{display: none;}
-.slide{width: 20%;transition: 1s;}
-.slide img{width: 1600px;height: 800px;}
-.navigation-manual{position: absolute;width: 1600px;margin-top: 260px;display: flex;justify-content: center;}
-.manual-btn{border: 2px solid #ffffff;padding: 5px;border-radius: 10px;cursor: pointer;transition: 1s;}
-.manual-btn:not(:last-child){margin-right: 40px;}
-.manual-btn:hover{background: #ffffff;}
+
 #radio1:checked ~ .first{margin-left: 0;}
 #radio2:checked ~ .first{margin-left: -20%;}
 #radio3:checked ~ .first{margin-left: -40%;}
@@ -50,6 +42,7 @@ hr.rounded {border-top: 6px solid gray;border-radius: 5px;}
 #sub-left {float:right;width: 30%;}
 #sub-right {float:right;width: 30%;}
 #sub-mid {float:right;width: 30%;}
+.u{display: none;}
 }
 
 @media (min-width:991px) {
@@ -57,4 +50,15 @@ hr.rounded {border-top: 6px solid gray;border-radius: 5px;}
 #sub-left {float:right;width: 30%;}
 #sub-right {float:right;width: 30%;}
 #sub-mid {float:right;width: 30%;}
+
+.slider{width: 100%;height: 800px;border-radius: 10px;overflow: hidden;}
+.slides{width: 500%;height: 500px;display: flex;}
+.slides input{display: none;}
+.slide{width: 20%;transition: 1s;}
+.slide img{width: 100%;height: 800px;}
+.navigation-manual{position: absolute;width: 1600px;margin-top: 260px;display: flex;justify-content: center;}
+.manual-btn{border: 2px solid #ffffff;padding: 5px;border-radius: 10px;cursor: pointer;transition: 1s;}
+.manual-btn:not(:last-child){margin-right: 40px;}
+.manual-btn:hover{background: #ffffff;}
+.u{display: block;}
 }
