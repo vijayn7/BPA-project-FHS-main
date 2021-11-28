@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>FHS Business Professionals of America</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="stylesheets/w3Style.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="stylesheets/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+<style>
+    body {
+        font-family: "Times New Roman", Georgia, Serif;
+        background-color: rgb(231, 231, 231);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+    }
+</style>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button">FHS Website Design</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right">
+                <a href="ATC.html#home" class="w3-bar-item w3-button">About The Creators</a>
+                <a href="index.html#tips" class="w3-bar-item w3-button w3-hide-small">Tips</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- back to top button -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"> <i class="fas fa-arrow-up"></i></button>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+
+        <div class="slider">                                                                                      <!-- SlideShow START -->
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first w3-image">
+                <img src="img\carousel1.jpg" alt="">
+              </div>
+              <div class="slide w3-image">
+                <img src="img\carousel2.jpg" alt="">
+              </div>
+              <div class="slide w3-image">
+                <img src="img\carousel3.jpg" alt="">
+              </div>
+              <div class="slide w3-image">
+                <img src="img\carousel4.jpg" alt="">
+              </div>
+              <!--slide images end-->
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+          </div>
+          <!--image slider end-->
+      
+          <script src="scripts\intervalSlideshow.js"></script>                                                    <!-- Scripts -->
+          <script src="scripts\backToTopButton.js"></script>
+
+        <div class="slideshow-text w3-padding-large">
+            <h1 class="w3-xxlarge">Community Carbon Emission Reduction</h1>
+        </div>
+    </header>
+
+    <!-- Page content -->
+    
+        <hr>
+
+        <!-- Menu Section -->
+        <div class="w3-row w3-padding-64" id="Tips">
+            <h1 class="w3-center">Click on the images below to see tips on lowering carbon emmissions:</h1>
+
+              <div id="sub-main">
+                <div id="sub-left">
+                    <a href="solar.html"><img src="img/solar.jpg" class="zoom"></a>
+                </div>
+                <div id="sub-mid">
+                    <a href="carpooling.html"><img src="img/carpooling.jpg" class= "zoom"></a>
+                </div>
+                <div id="sub-right">
+                  <a href="showers.html"><img src="img/shower.png" class="zoom"></a>
+              </div>
+
+        <div class="w3-row w3-padding-64">
+
+              <div id="sub-main">
+                <div id="sub-left">
+                  <a href="avoidplastic.html"><img src="img/reuseables.jpg" class= "zoom"></a>
+                </div>
+                <div id="sub-mid">
+                  <a href="leds.html"><img src="img/leds.jpg" class= "zoom"></a>
+                </div>
+                <div id="sub-right">
+                  <a href="typesofmeat.html"><img src="img/typesofmeats.jpg" class= "zoom"></a>
+              </div>
+        </div>
+
+        <div class="w3-row w3-padding-64">
+
+          <div id="sub-main">
+            <div id="sub-left">
+              <a href="eatlocal.html"><img src="img/eatlocal.jpg" class= "zoom"></a>
+            </div>
+            <div id="sub-mid">
+                <div class="zoom" style="margin-top:75px;">M</div>
+            </div>
+            <div id="sub-right">
+              <div class="zoom" style="margin-top:75px;">R</div>
+          </div>
+    </div>
+
+            <hr>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-64" id="contact">
+            <h1> </h1><br>
+            <p> </p>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-dark">
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6 item text">
+                      <h3>FHS BPA 2021</h3>
+                      <p>Feel free to contact us by email at <a href=CCER.FHS@gmail.com>CCER.FHS@gmail.com</a></p>
+                  </div>
+                  <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+              </div>
+              <p class="copyright">Farmington BPA 2021</p>
+          </div>
+      </footer>
+  </div>
+
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
