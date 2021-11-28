@@ -43,6 +43,7 @@ hr.rounded {border-top: 6px solid gray;border-radius: 5px;}
 #sub-right {float:right;width: 30%;}
 #sub-mid {float:right;width: 30%;}
 .u{display: none;}
+.video{margin-left:17%; text-align: center;}
 }
 
 @media (min-width:991px) {
@@ -60,4 +61,5 @@ hr.rounded {border-top: 6px solid gray;border-radius: 5px;}
 .manual-btn:not(:last-child){margin-right: 40px;}
 .manual-btn:hover{background: #ffffff;}
 .u{display: block;}
+.video{margin-left: 35%; text-align: center;}
 }
