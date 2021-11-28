@@ -37,8 +37,8 @@ hr.rounded {border-top: 6px solid gray;border-radius: 5px;}
 #radio3:checked ~ .navigation-auto .auto-btn3{background: #ffffff;}
 #radio4:checked ~ .navigation-auto .auto-btn4{background: #ffffff;}
 
-@media (min-width:767px) {
-.zoom_height_and_width {width:260px;height:260px;}
+@media (min-width:768px) {
+.zoom_height_and_width {width: 175px;height:175px;}
 #sub-left {float:right;width: 30%;}
 #sub-right {float:right;width: 30%;}
 #sub-mid {float:right;width: 30%;}
