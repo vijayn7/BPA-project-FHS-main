@@ -17,16 +17,37 @@
 h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
 </style>
 <body class="body">
+<style type="text/css">
+  @font-face {
+    font-family: "Rasa Light";
+    src : url(Rasa-light.ttf)
+  }
+  
+  p.customfont {
+    font-family: "Rasa Light";
+  }
+  
+  </style>
+  <Style>
+@font-face {
+    font-family: "Barlow Condensed";
+    src: url(BarlowCondensed-Regular.ttf);
+  }
+
+p.customfont {
+    font-family: "Barlow Condensed";
+  }
+  </Style>
 
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-padding w3-card" style="background-color: #101C35;">
-            <a href="#home" style="font-family: sans-serif; letter-spacing: 2px; color: white;" class="w3-bar-item w3-button">FHS Website Design</a>
+            <a href="#home" style="font-family: Barlow Condensed; letter-spacing: 2px; color: white; font-size:large;" class="w3-bar-item w3-button">FHS Website Design</a>
             <!-- Right-sided navbar links. Hide them on small screens -->
             <div class="w3-right">
-                <a href="ATC.html#home" style="font-family: sans-serif; letter-spacing: 2px; color: white;" class="w3-bar-item w3-button w3-hide-small">About The Creators</a>
-                <a href="index.html#tips" style="font-family: sans-serif; letter-spacing: 2px; color: white;" class="w3-bar-item w3-button w3-hide-small u">Tips</a>
-                <a href="#contact" style="font-family: sans-serif; letter-spacing: 2px; color: white;" class="w3-bar-item w3-button w3-hide-small u">Contact us</a>
+                <a href="ATC.html#home" style="font-family: Barlow Condensed; letter-spacing: 2px; color: white;" class="w3-bar-item w3-button w3-hide-small">About The Creators</a>
+                <a href="index.html#tips" style="font-family: Barlow Condensed; letter-spacing: 2px; color: white;" class="w3-bar-item w3-button w3-hide-small u">Tips</a>
+                <a href="#contact" style="font-family: Barlow Condensed; letter-spacing: 2px; color: white;" class="w3-bar-item w3-button w3-hide-small u">Contact us</a>
             </div>
         </div>
     </div>
@@ -83,7 +104,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
           <script src="scripts\backToTopButton.js"></script>
 
         <div class="slideshow-text w3-padding-large">
-            <h1 class="w3-xxlarge">Community Carbon Emission Reduction</h1>
+            <h1 class="w3-xxlarge" style="font-family: Barlow Condensed;">Community Carbon Emission Reduction</h1>
         </div>
     </header>
 
@@ -92,14 +113,14 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
         <div id="content-warp">
         <hr>
 
-        <h1 class="w3-center w3-hide-small" style="text-align: center;">What are carbon emmissions?</h1>
+        <h1 class="w3-center w3-hide-small" style="text-align: center; font-family: Barlow Condensed;">What are carbon emmissions?</h1>
         <iframe class="w3-center video w3-hide-small" width="560" height="315" src="https://www.youtube.com/embed/fStmxIfwXeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h6 class="w3-center w3-hide-small" style="text-align: center;">Video by Alliant Energy</h6>
+        <h6 class="w3-center w3-hide-small" style="text-align: center; font-family: Rasa Light;">Video by Alliant Energy</h6>
         <hr>
 
         <!-- Menu Section -->
-        <div class="w3-row w3-padding-64" id="tips">
-            <h1 class="w3-center">Click on the images below to see tips on lowering carbon emmissions:</h1>
+        <div class="w3-row w3-padding-64" id="tips" >
+            <h1 class="w3-center" style="font-family: BArlow Condensed;"> Click on the images below to see tips on lowering carbon emmissions:</h1>
 
               <div id="sub-main">
                 <div id="sub-left">
@@ -113,7 +134,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
                           <img src="img/solar.jpg" class="zoom_height_and_width rounded-corners">
                         </div>
                         <div class="flip-card-back">
-                          <h1 style="margin-top:40%;">Solar Panels</h1> 
+                          <h1 style="margin-top:40%; font-family: Rasa Light;">Solar Panels</h1> 
                         </div>
                       </div>
                     </div>
@@ -130,7 +151,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
                             <img src="img/carpooling.jpg" class="zoom_height_and_width rounded-corners">
                           </div>
                           <div class="flip-card-back">
-                            <h1 style="margin-top:40%;">Carpooling</h1> 
+                            <h1 style="margin-top:40%; font-family: Rasa Light;">Carpooling</h1> 
                           </div>
                         </div>
                       </div>
@@ -147,7 +168,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
                           <img src="img/shower.png" class="zoom_height_and_width rounded-corners">
                         </div>
                         <div class="flip-card-back">
-                          <h1 style="margin-top:35%;">Taking Shorter Showers</h1> 
+                          <h1 style="margin-top:35%; font-family: Rasa Light;">Taking Shorter Showers</h1> 
                         </div>
                       </div>
                     </div>
@@ -168,7 +189,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
                           <img src="img/reuseables.jpg" class="zoom_height_and_width rounded-corners">
                         </div>
                         <div class="flip-card-back">
-                          <h1 style="margin-top:35%;">Using Reuseable Containers</h1> 
+                          <h1 style="margin-top:35%; font-family: Rasa Light;">Using Reuseable Containers</h1> 
                         </div>
                       </div>
                     </div>
@@ -185,7 +206,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
                           <img src="img/leds.jpg" class="zoom_height_and_width rounded-corners">
                         </div>
                         <div class="flip-card-back">
-                          <h1 style="margin-top:35%;">Using LED Light Bulbs</h1> 
+                          <h1 style="margin-top:35%; font-family: Rasa Light;">Using LED Light Bulbs</h1> 
                         </div>
                       </div>
                     </div>
@@ -202,7 +223,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
                           <img src="img/typesofmeats.jpg" class="zoom_height_and_width rounded-corners">
                         </div>
                         <div class="flip-card-back">
-                          <h1 style="margin-top:35%;">Eating The Right Types Of Meats</h1> 
+                          <h1 style="margin-top:35%; font-family: Rasa Light;">Eating The Right Types Of Meats</h1> 
                         </div>
                       </div>
                     </div>
@@ -224,7 +245,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
                       <img src="img/eatlocal.jpg" class="zoom_height_and_width rounded-corners">
                     </div>
                     <div class="flip-card-back">
-                      <h1 style="margin-top:35%;">Eating Local</h1> 
+                      <h1 style="margin-top:35%; font-family: Rasa Light;">Eating Local</h1> 
                     </div>
                   </div>
                 </div>
@@ -241,7 +262,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
                       <img src="img/optimize.png" class="zoom_height_and_width rounded-corners">
                     </div>
                     <div class="flip-card-back">
-                      <h1 style="margin-top:35%;">Optimizing Your Home</h1> 
+                      <h1 style="margin-top:35%; font-family: Rasa Light;">Optimizing Your Home</h1> 
                     </div>
                   </div>
                 </div>
@@ -258,7 +279,7 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
                       <img src="img/digital.png" class="zoom_height_and_width rounded-corners">
                     </div>
                     <div class="flip-card-back">
-                      <h1 style="margin-top:35%;">Going digital</h1>
+                      <h1 style="margin-top:35%; font-family: Rasa Light;">Going digital</h1>
                     </div>
                   </div>
                 </div>
@@ -269,9 +290,9 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
 
             <br>
 
-            <h2 class="w3-center u w3-hide-small" style="margin-top:35%; text-align: center;">Works Cited:</h2>
+            <h2 class="w3-center u w3-hide-small" style="margin-top:35%; text-align: center; font-family: Barlow Condensed;">Works Cited:</h2>
 
-            <iframe style="margin-left: 32.5%;" class="iframe w3-center video w3-hide-small u" width="660" height="815" src="https://docs.google.com/document/d/e/2PACX-1vQJyoJzLp_LBU338vgCBAZrzF9U11_pXr6zRiWbzhWiwoS7I50mswuYtJU6Y4n5mwNJWup9GkAemqC3/pub?embedded=true"></iframe>            
+            <iframe style="margin-left: 32.5%;" class="iframe w3-center video w3-hide-small u" width="660" height="815" src="https://docs.google.com/document/d/e/2PACX-1vTlGWjeBbyvuOIsKW6MDWwNL4phX-pt1GUbfF4bzygZU3RIacW8xbH37hG6qprtx0_7Xzkd4k3lpNz5/pub?embedded=true"></iframe>            
 
         <!-- Contact Section -->
         <div class="w3-container w3-padding-64" id="contact">
@@ -285,13 +306,13 @@ h1, h2, h3, h4, h5, h6 { font-family: sans-serif; letter-spacing: 2px;}
   <footer>
       <div class="container">
           <div class="row">
-              <div class="col-md-6 item text">
-                  <h3>FHS BPA 2021</h3>
-                  <p>Feel free to contact us by email at <a href="mailto:CCER.FHS@gmail.com">CCER.FHS@gmail.com</a></p>
+              <div class="col-md-6 item text" > 
+                  <h3 style="font-family: Rasa Light;">FHS BPA 2021</h3>
+                  <p style="font-family: Rasa Light;"">Feel free to contact us by email at <a href="mailto:CCER.FHS@gmail.com">CCER.FHS@gmail.com</a></p>
               </div>
               <div class="col item social"><a href="https://www.facebook.com/michiganbpa/"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/MichiganBPA"><i class="icon ion-social-twitter"></i></a><a href="https://www.youtube.com/c/BusinessProfessionalsAmerica"><i class="icon ion-social-youtube"></i></a><a href="https://www.instagram.com/michiganbpa/"><i class="icon ion-social-instagram"></i></a></div>
           </div>
-          <p class="copyright">Farmington BPA 2021</p>
+          <p class="copyright" style="font-family: Rasa Light;">Farmington BPA 2021</p>
       </div>
   </footer>
 </div>
