@@ -1,3 +1,4 @@
+html{scroll-behavior: smooth;}
 .slideshow-text{position:absolute;left:0;bottom:50px;color: rgb(255, 255, 255);}
 #btn-back-to-top {display: none;width: 60px;height: 60px;text-indent: -9999px;position: fixed;z-index: 999;right: 20px;bottom: 20px;background: gray url("img/up-arrow.png") no-repeat center 43%;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
 .zoom {transition: transform .2s;background-color: #ffffff; border-radius: 30px; opacity: 85%; margin-top:75px;}
